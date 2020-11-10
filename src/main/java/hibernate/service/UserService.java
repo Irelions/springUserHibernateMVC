@@ -9,5 +9,5 @@ public interface UserService {
     List<User> listUsers();
     User showUser (int id);
     void delete(int id);
-    void update(int id);
+    void update(int id, User user);
 }
